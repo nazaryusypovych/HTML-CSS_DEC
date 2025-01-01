@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: #dadada;
+}
+
+h1, p{
+    text-align: center;
+}
+
+.products{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.product{
+    height: 260px;
+    width: 280px;
+    border: solid 2px black;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    height: 160px;
+    width: 180px;
+}

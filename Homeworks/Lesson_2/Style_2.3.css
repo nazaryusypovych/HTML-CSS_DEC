@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-color: #2f8f5b;
+}
+
+.year{
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.month{
+    height: 220px;
+    width: 200px;
+    background-color: #99a69f;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border-radius: 5%;
+    padding: 20px;
+    box-shadow: 2px 1px 1px gray;
+}
+
+.month:hover{
+    transform: scale(1.05);
+}

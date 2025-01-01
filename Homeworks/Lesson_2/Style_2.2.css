@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    background-color: #9c6262;
+}
+
+.elements{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.element{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+}
+
+.element:hover{
+    background-color: gray;
+    border-radius: 50%;
+    transition: 2s;
+}
