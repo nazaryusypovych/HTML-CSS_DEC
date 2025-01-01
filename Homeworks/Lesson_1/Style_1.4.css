@@ -1,0 +1,9 @@
+span{
+    width: 80px;
+    height: 40px;
+    background-color: antiquewhite;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
