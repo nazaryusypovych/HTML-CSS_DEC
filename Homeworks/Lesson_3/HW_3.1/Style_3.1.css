@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.main-section{
+    height: 50vh;
+    background-color: #3490ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.widgets-section{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.widgets-section div{
+    height: 50vh;
+    width: 30vw;
+    background-color: #0f7ce6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section{
+    height: 80vh;
+    background-color: #3490ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}

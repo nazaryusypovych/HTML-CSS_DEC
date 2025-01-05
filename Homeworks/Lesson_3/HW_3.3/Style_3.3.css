@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    scroll-behavior: smooth;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+#red{
+    background-color: #ca5757;
+}
+
+#blue{
+    background-color: #3e73ba;
+}
+
+#green{
+    background-color: #6cc660;
+}
+
+h2{
+    margin: 40px 0;
+}
+
+p{
+    margin-bottom: 30px;
+}
+.scroll-element{
+    font-size: 40px;
+    color:black;
+}
