@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.w-1070{
+    width: 1070px;
+    margin: 0 auto;
+    background-color: #FFF;
+    padding-top: 30px;
+}
+
+/*--------header----------------*/
+header{
+    height: 60px;
+    width: 1070px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+}
+
+.active-link{
+    color: #19191B;
+    text-decoration: underline 2px #5454D4;
+}
+
+header img{
+    width: 200px;
+    height: 40px;
+}
+
+header nav ul{
+    width: 327px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a{
+    color: #696871;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.469px;
+}
+
+header button{
+    width: 211px;
+    height: 60px;
+    border-radius: 10px;
+    background: #FF7143;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+}
+/*-----------main, main-section---------------------------*/
+main{
+    height: 3421px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.main-section{
+    height: 644px;
+    width: 1070px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 68px;
+}
+
+.main-section h1{
+    width: 439px;
+    height: 231px;
+    color: #19191B;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: -2.501px;
+    margin-bottom: 30px;
+}
+
+.main-section p{
+    width: 409px;
+    color: #696871;
+    font-family: Mulish, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.625px;
+    margin-bottom: 50px;
+}
+
+.main-section button{
+    width: 188px;
+    height: 60px;
+    border-radius: 10px;
+    background: #5454D4;
+    border: none;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+}
+
+/*---------logo-section----------*/
+.logo-section{
+    height: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 132px;
+}
+
+/*-----------subscription-index-section--------------*/
+.subscription-index-section{
+    height: 473px;
+    width: 1070px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+}
+
+.subscription-index-section h2{
+    width: 556px;
+    color: #19191B;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: -1.563px;
+    margin-bottom: 30px;
+}
+
+.subscription-index-section p{
+    width: 459px;
+    color: #696871;
+    font-family: Mulish, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.625px;
+    margin-bottom: 30px;
+}
+
+.subscription-index-section a{
+    color: #5454D4;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+}
+
+/*-----------------in-depth-metrics-section----------*/
+.in-depth-metrics-section{
+    height: 474px;
+    width: 1070px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 83px;
+}
+
+.in-depth-metrics-section h2{
+    width: 409px;
+    color: #19191B;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: -1.563px;
+    margin-bottom: 30px;
+}
+
+.in-depth-metrics-section p{
+    width: 409px;
+    color: #696871;
+    font-family: Mulish, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.625px;
+    margin-bottom: 30px;
+}
+
+.in-depth-metrics-section a{
+    color: #5454D4;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+}
+
+/*------------advantages-section-----------*/
+
+.advantages-section{
+    height: 562px;
+    width: 1070px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+}
+
+.advantages-section div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.advantages-section img{
+    width: 151px;
+    height: 97px;
+    margin-bottom: 7px;
+}
+
+.advantages-section h3{
+    color: #19191B;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.75px;
+    margin-bottom: 20px;
+}
+
+.advantages-section p{
+    width: 307px;
+    color: #696871;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+}
+
+/*-----------plan-section-----------*/
+
+.plan-section{
+    width: 1111px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+}
+
+.plan-section h2{
+    width: 523px;
+    color: #19191B;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1.876px;
+}
+
+.plan-button{
+    width: 344px;
+    height: 65px;
+    border-radius: 10px;
+    background: #F7F7FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yearly{
+    width: 160px;
+    height: 55px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #19191B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.yearly:hover{
+    background: #5454D4;
+    color: #FFF;
+    border-radius: 10px 0 0 10px;
+}
+
+.monthly{
+    width: 160px;
+    height: 55px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #19191B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.monthly:hover{
+    background: #5454D4;
+    color: #FFF;
+    border-radius: 0 10px 10px 0;
+}
+
+/*-------------tariff-section--------------*/
+
+.tariff-section{
+    width: 1111px;
+    height: 473px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "DM Sans", sans-serif;
+    margin: 82px 0 158px 0;
+}
+
+.tariff-section .tariff{
+    width: 330px;
+    height: 441px;
+    border-radius: 10px;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tariff-section .tariff p{
+    color: #696871;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.563px;
+    margin-bottom: 35px;
+}
+
+.tariff-section .tariff h3{
+    color: #1D293F;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.034px;
+    margin-bottom: 28px;
+}
+
+.tariff-section .tariff span{
+    color: #1D293F;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -1.034px;
+}
+
+.tariff-section .tariff ul{
+    color: #696871;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 294.118% */
+    letter-spacing: -0.531px;
+    margin-bottom: 36px;
+}
+
+.tariff-section .tariff button{
+    width: 285px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid #EAE9F2;
+    background: #FFF;
+    color: #5454D4;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+}
+
+.tariff-section .tariff:hover{
+    width: 376px;
+    height: 473px;
+    border-radius: 10px;
+    background: #FF7143;
+    box-shadow: 0 32px 34px 0 rgba(255, 112, 59, 0.32);
+}
+
+.tariff-section .tariff:hover button{
+    width: 305px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background: #9F3919;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.531px;
+}
+
+.tariff-section .tariff:hover p{
+    color: #FFF;
+}
+
+.tariff-section .tariff:hover h3{
+    color: #FFF;
+}
+
+.tariff-section .tariff:hover ul{
+    color: #FFF;
+}
+
+.tariff-section .tariff:hover span{
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
