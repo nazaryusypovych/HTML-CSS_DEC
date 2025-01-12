@@ -1,0 +1,51 @@
+.flex{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tom {
+    animation: tom 3s linear infinite alternate;
+}
+
+@keyframes tom {
+    0%{
+        transform: translate(-20vw,-20vw);
+    }
+    25%{
+        transform: translate(-10vw,-10vw);
+    }
+    50%{
+        transform: translate(0vw,0vw);
+    }
+    75%{
+        transform: translate(10vw,10vw);
+    }
+    100%{
+        transform: translate(20vw,20vw);
+    }
+
+}
+.jery {
+    animation: jery 3s linear infinite alternate;
+}
+@keyframes jery {
+    0%{
+        transform: translate(-20vw,-20vw);
+    }
+    25%{
+        transform: translate(-10vw,-10vw);
+    }
+    50%{
+        transform: translate(0vw,0vw);
+    }
+    75%{
+        transform: translate(10vw,10vw);
+    }
+    100%{
+        transform: translate(20vw,20vw);
+    }
+
+}
